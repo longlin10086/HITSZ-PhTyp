@@ -9,7 +9,7 @@
   set text(font: 字体.黑体, size: 字号.五号,lang: "zh", region: "cn")
   strong(name)
   h(size)
-  underline(offset: 2pt, extent: size, body)
+  underline(offset: 2pt, extent: size, evade: false, body)
 }
 
 

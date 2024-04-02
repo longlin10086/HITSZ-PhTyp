@@ -23,6 +23,8 @@
     "请绘制数字示波器、信号发生器观测RC、RL和RLC串联电路的连接线路示意图。"
 )
 
+#lorem(200)
+
 #pagebreak()
 
 #counter(heading.where(level: 2)).step()
@@ -47,13 +49,13 @@
     column-num: 4,
     [$L=10 m H$ #h(1em) #underline_element([方波信号周期T], [$220 mu s$、60 ms、600ms], 15pt)],
     [$tau$ \\ R], [$100 Omega$], [$500Omega$], [$900 Omega$],
-    [时间常数 $tau$], [$12 mu s$], [6ms], [56ms],
+    [时间常数 $tau$], [$92 mu s$], [$16 mu s$], [$10.4 mu s$],
   )
   #simple_table(
     column-num: 4,
     [$R=1000 Omega$ #h(1em) #underline_element([方波信号周期T], [10ms、50 ms、100ms], 15pt)],
     [$tau$ \\ L], [$10 m H$], [$50 m H$], [100 m H],
-    [时间常数 $tau$], [1ms], [5.1ms], [12ms],
+    [时间常数 $tau$], [$8.8 mu s$], [$44 mu s$], [$88 mu s$],
   )
   ],
   [*RLC串联电路的暂态特性*\(使用方波信号进行实验，可取 $V_(p p)=10V$\) 
@@ -61,9 +63,9 @@
     column-num: 10,
     [测量欠阻尼情况下 $U_C$ 充电时振荡波形的任一  $t_1$ 时峰值 $U_(c t_1)$ 和 $t_1+n T$ 时峰值 $U_(c\(t_1+n T\))$ ],
     [n], 0, 1, 2, 3, 4, 5, 6, 7, 8,
-    [$U_(c\(t_1+n T\))$], [], [], [], [], [], [], [], []
+    [$U_(c\(t_1+n T\))$], [13.4], [11.0], [9.4], [8.2], [7.2], [6.6], [6.2], [5.8], [5.4]
   )
-  #underline_element([E], [10 V], 7pt) #h(10pt) #underline_element([$t_1$], [5s], 7pt)
+  #underline_element([E], [10 V], 7pt) #h(10pt) #underline_element([$t_1$], [52 \u{03BC} s], 7pt)
   ],
 )
 
@@ -80,11 +82,14 @@
     [测量欠阻尼情况下 $U_C$ 充电时振荡波形的任一 $t_1$ 时峰值 $U_(c t_1)$ 和 $t_1+n T$ 时峰值 $U_(c\(t_1+n T\))$ ，采用最小二乘法或作图法求出 $ln(1- U_C / E)~t$ 的斜率，计算时间常数 $tau$，并与理论值 $tau= (2L) / R \(R=R_("电阻")+R_S+R_L\)$ 进行比较，分析误差产生的原因。]
 )
 
+#lorem(200)
+
 #pagebreak()
 
 
 #counter(heading.where(level: 2)).step()
 == 实验现象分析及结论
+#lorem(100)
 
 #counter(heading.where(level: 2)).step()
 == 讨论题
@@ -92,5 +97,7 @@
   "在RC和RL电路中，固定方波频率f而改变R的阻值，为什么会有各种不同的波形？若固定R而改变方波频f，会得到类似的波形吗？为什么？",
   "在RLC电路中，为什么要适当调节方波频率才能观测到阻尼振荡的波形？如果频率很高，将会发生什么样的情况？试观察。"
 )
+
+#lorem(100)
 ]
 

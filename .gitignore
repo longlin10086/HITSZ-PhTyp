@@ -3,4 +3,4 @@
 *.png
 *.jpg
 *.jpeg
-^template.pdf
+!template.pdf
