@@ -8,19 +8,19 @@ This repo is a Typst template of Harbin Institute of Technology(Shenzhen) Physic
 .
 ├── README.md
 ├── assets
-│   └── images # Directory used for store images
+│   └── images               # Directory used for store images
 ├── layout
-│   └── page.typ # Define the page's style
+│   └── page.typ             # Define the page's style
 ├── template.pdf 
-├── template.typ # The main article
+├── template.typ             # The main article
 ├── themes
-│   └── theme.typ # Define the font style and size
+│   └── theme.typ            # Define the font style and size
 └── utils
-    ├── head_element.typ # Some necessary illustration
-    ├── image.typ # How the image is demonstarted
-    ├── question_list.typ # Question list for each section
-    ├── tables.typ # Define the table's style
-    └── two_line.typ # An auxiliary
+    ├── head_element.typ     # Some necessary illustration
+    ├── image.typ            # How the image is demonstarted
+    ├── question_list.typ    # Question list for each section
+    ├── tables.typ           # Define the table's style
+    └── two_line.typ         # An auxiliary
 ```
 
 If you want to use this template to product report, all the writing changes should be done in `template.typ`.
