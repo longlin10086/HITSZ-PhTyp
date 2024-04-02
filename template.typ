@@ -30,7 +30,7 @@
 #question_list(
   [*RC串联电路的暂态特性*\(使用方波信号进行实验，可取 $V_(p p)=10V$\) 
   #simple_table(
-  column-num: 5,
+    column-num: 5,
     [$R=500 Omega$ #h(1em) #underline_element([方波信号周期T], [$220 mu s$、60 ms、600ms、3s], 15pt)],
     [$tau$ \\ C], [$0.022 mu F$], [$10 mu F$], [$100 mu F$], [$470 mu F$],
     [时间常数 $tau$], [$12 mu s$], [6ms], [56ms], [288ms]
@@ -44,7 +44,7 @@
   ],
   [*RL串联电路的暂态特性*\(使用方波信号进行实验，可取 $V_(p p)=10V$\) 
   #simple_table(
-  column-num: 4,
+    column-num: 4,
     [$L=10 m H$ #h(1em) #underline_element([方波信号周期T], [$220 mu s$、60 ms、600ms], 15pt)],
     [$tau$ \\ R], [$100 Omega$], [$500Omega$], [$900 Omega$],
     [时间常数 $tau$], [$12 mu s$], [6ms], [56ms],
@@ -58,7 +58,7 @@
   ],
   [*RLC串联电路的暂态特性*\(使用方波信号进行实验，可取 $V_(p p)=10V$\) 
   #simple_table(
-  column-num: 10,
+    column-num: 10,
     [测量欠阻尼情况下 $U_C$ 充电时振荡波形的任一  $t_1$ 时峰值 $U_(c t_1)$ 和 $t_1+n T$ 时峰值 $U_(c\(t_1+n T\))$ ],
     [n], 0, 1, 2, 3, 4, 5, 6, 7, 8,
     [$U_(c\(t_1+n T\))$], [], [], [], [], [], [], [], []
@@ -67,9 +67,12 @@
   ],
 )
 
+
 #signature_table("../assets/images/signature.png")
 
 #pagebreak()
+
+
 #counter(heading.where(level: 2)).step()
 == 数据处理
 #question_list(
@@ -78,6 +81,8 @@
 )
 
 #pagebreak()
+
+
 #counter(heading.where(level: 2)).step()
 == 实验现象分析及结论
 
